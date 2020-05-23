@@ -1,9 +1,0 @@
-/* write a poem */
-
-#include <stdio.h>
-
-int main(void) {
-	printf("I've never seen a purple cow.");
-	printf("I never hope to see one.");
-	printf("But if I do anyhow, I hope to see rather than be one.");
-}
