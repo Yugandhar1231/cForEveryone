@@ -15,7 +15,8 @@ int main(void) {
 	if (input < 0 || input > 1) {
 	printf("That is not between 0 and 1. Please try again.\n");
 	} else {
-	result = sin(input);
+	absolute = abs(input);
+	result = sine(absolute);
 	printf("The sine of %lf is %f\n", input, result);
 	}
 
